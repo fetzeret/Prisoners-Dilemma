@@ -6,7 +6,7 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Ethan' # Only 10 chars displayed.
+team_name = 'Ethan F' # Only 10 chars displayed.
 strategy_name = 'import_random'
 strategy_description = 'randomness'
     
@@ -32,8 +32,6 @@ def move(my_history, their_history, my_score, their_score):
         return 'c'
     if choice == 2:
         return 'b'
-    
-    
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
